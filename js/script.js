@@ -1,7 +1,11 @@
 // FSJS - Random Quote Generator
-
+var randomQuoteIndex = Math.floor(Math.random() * quote.length);
 // Create the array of quote objects and name it quotes
+var quote = [
+     ['Get busy living or get busy dying'],
+    ['Stephen King']
 
+];
 
 
 // Create the getRandomQuuote function and name it getRandomQuote

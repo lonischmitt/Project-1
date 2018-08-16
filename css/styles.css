@@ -1,9 +1,9 @@
 /* Random Quote Generator Styles */
 
 body {
-  background-color: #36b55c;
-  color: white;
-  font-family: 'Playfair Display', serif;
+  background-color: #caafe6;
+  color: #faf5ff;
+  font-family: 'Dancing Script', cursive;
 }
 
 #quote-box {
@@ -55,7 +55,7 @@ body {
 }
 
 .citation {
-  font-style: italic;
+  font-style: ;
 }
 
 .citation:before {
@@ -77,10 +77,10 @@ body {
   bottom: 150px;
   border-radius: 4px;
   border: 2px solid #fff;
-  color: #fff;
-  background-color: #36b55c;
-  padding: 15px 0;
-  transition: .5s ;
+  color: #faf5ff;
+  background-color: #caafe6;
+  padding: 10px 0;
+  transition: .05s ;
 }
 #loadQuote:hover {
   background-color: rgba(255,255,255,.25);
